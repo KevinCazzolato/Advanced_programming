@@ -1,0 +1,7 @@
+This project is a Python implementation of a stack data structure that also includes an expression evaluator. 
+The stack is designed to manage data using Last-In-First-Out (LIFO) logic, supporting typical stack operations like pushing and popping elements.
+Additionally, the project features custom error handling to manage stack underflows, and it uses the stack for processing and evaluating mathematical or logical expressions.
+The Stack class offers core functionalities such as adding (push) and removing (pop) elements, while also providing a string representation for easy visualization of the stack's state. 
+An EmptyStackException is included to handle cases where an operation is attempted on an empty stack, making the system more robust.
+The Expression class utilizes the stack for evaluating expressions, allowing for straightforward manipulation and calculation of stack-based expressions. 
+
